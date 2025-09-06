@@ -1,0 +1,89 @@
+/* Minimal black theme */
+:root {
+  --bg: #0b0b0b;
+  --text: #f4f4f4;
+  --muted: #a3a3a3;
+  --accent: #00d8ff;
+  --card: #111111;
+  --border: #1f1f1f;
+  --maxw: 880px;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Noto Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+}
+
+a { color: var(--text); text-decoration: none; }
+a:hover { color: var(--accent); }
+
+.page { min-height: 100%; display: flex; flex-direction: column; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 20px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand { font-weight: 600; letter-spacing: 0.2px; }
+.brand .dot { color: var(--accent); }
+.brand .name { opacity: 0.95; }
+
+.nav a { margin-left: 16px; opacity: 0.85; }
+.nav a:hover { opacity: 1; color: var(--accent); }
+
+.main {
+  max-width: var(--maxw);
+  width: 100%;
+  margin: 32px auto;
+  padding: 0 16px 48px;
+  flex: 1;
+}
+
+.title { font-size: 40px; margin: 16px 0 8px; letter-spacing: -0.3px; }
+.subtitle { color: var(--muted); margin-bottom: 32px; max-width: 700px; }
+
+.section { margin: 40px 0 24px; }
+.section h2 {
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.section-body { display: grid; gap: 16px; }
+
+.bullets { margin: 0; padding-left: 18px; }
+.bullets li { margin: 6px 0; }
+
+.card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.card h3 { margin: 0 0 8px; }
+.link { color: var(--accent); }
+.link:hover { text-decoration: underline; }
+
+.footer {
+  border-top: 1px solid var(--border);
+  max-width: var(--maxw);
+  margin: auto;
+  width: 100%;
+  padding: 16px;
+  color: var(--muted);
+}
+.muted { color: var(--muted); }

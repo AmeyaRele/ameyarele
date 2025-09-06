@@ -1,0 +1,49 @@
+# Node/Vite
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing/coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Hosting/platform
+.vercel/
+.netlify/
+
+# Project-specific
+latex-resume.tex
