@@ -12,19 +12,17 @@ function Section({ id, title, children }: { id: string; title: string; children:
 export default function App() {
   return (
     <div className="page">
-      <header className="header">
-        <div className="brand">
-          <span className="dot">●</span> <span className="name">Ameya Rele</span>
-        </div>
-        <nav className="nav">
+      {/* Scrollable tabs navigation (acts as top bar) */}
+      <nav className="tabs" aria-label="Section navigation">
+        <div className="tabs-inner">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#education">Education</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-        </nav>
-      </header>
+        </div>
+      </nav>
 
       <main className="main">
         <h1 className="title">Hi, I’m Ameya 👋</h1>
