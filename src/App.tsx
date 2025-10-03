@@ -61,7 +61,7 @@ export default function App() {
         <Section id="education" title="Education">
           <div className="card">
             <h3>Stony Brook University — M.S. in Computer Science</h3>
-            <p className="muted">Aug 2024 — May 2026 · GPA 3.89/4 · Stony Brook, NY</p>
+            <p className="muted">Aug 2024 — Dec 2025 · GPA 3.89/4 · Stony Brook, NY</p>
           </div>
           <div className="card">
             <h3>Manipal Institute of Technology — B.Tech in CSE</h3>
