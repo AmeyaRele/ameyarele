@@ -27,13 +27,13 @@ export default function App() {
       <main className="main">
         <h1 className="title">Hi, I’m Ameya 👋</h1>
         <p className="subtitle">
-          Former Software Engineer on Azure Functions at Microsoft. Now an M.S. student in Computer Science at Stony Brook University.
-          Interests: Azure Functions, SQL change tracking, Kubernetes, Go, C#, and visualization with LLMs.
+          Former Software Engineer on Microsoft’s serverless platform. Now an M.S. student in Computer Science at Stony Brook University.
+          Interests: cloud computing, serverless architectures, data/visualization systems, and security.
         </p>
 
         <Section id="about" title="About">
           <ul className="bullets">
-            <li>Built features across Azure Functions core and ecosystem to improve scale, logging, and container deployment.</li>
+            <li>Built features across Microsoft’s serverless runtime to improve scale, observability, and container-based deployment.</li>
             <li>Previously contributed an SQL trigger to the Azure Functions SQL Extension.</li>
             <li>Based in Stony Brook, NY. Open to collaborating on interesting OSS projects.</li>
           </ul>
@@ -41,17 +41,17 @@ export default function App() {
 
         <Section id="experience" title="Experience">
           <div className="card">
-            <h3>Software Engineer — Azure Functions, Microsoft</h3>
-            <p className="muted">Jul 2022 — Jul 2024 · Hyderabad, India</p>
+            <h3>Software Engineer — Serverless Platform (Azure Functions), Microsoft</h3>
+            <p className="muted">Jul 2022 — Jul 2024 · Redmond, WA (remote)</p>
             <ul className="bullets">
-              <li>Supported “Functions on Container Apps” (managed Kubernetes), driving customer growth and improving deployment workflows.</li>
-              <li>Engineered logging for function containers; reduced issue resolution time.</li>
+              <li>Supported serverless on containers/Kubernetes, driving customer growth and improving deployment workflows.</li>
+              <li>Engineered logging for containerized workloads; reduced issue resolution time.</li>
               <li>Introduced target-based scaling for the SQL trigger, significantly lowering scale-up time.</li>
             </ul>
           </div>
           <div className="card">
-            <h3>Software Engineering Intern — Azure Functions, Microsoft</h3>
-            <p className="muted">Jan 2022 — Jun 2022 · Hyderabad, India</p>
+            <h3>Software Engineering Intern — Microsoft (Serverless)</h3>
+            <p className="muted">Jan 2022 — Jun 2022 · Remote</p>
             <ul className="bullets">
               <li>Led development of an SQL trigger for Azure Functions with strong test coverage and adoption.</li>
             </ul>
@@ -61,7 +61,7 @@ export default function App() {
         <Section id="education" title="Education">
           <div className="card">
             <h3>Stony Brook University — M.S. in Computer Science</h3>
-            <p className="muted">Aug 2024 — Dec 2025 · GPA 3.89/4 · Stony Brook, NY</p>
+            <p className="muted">Aug 2024 — May 2026 · GPA 3.89/4 · Stony Brook, NY</p>
           </div>
           <div className="card">
             <h3>Manipal Institute of Technology — B.Tech in CSE</h3>
@@ -73,7 +73,8 @@ export default function App() {
           <ul className="bullets">
             <li><strong>Languages:</strong> C#, Go, Java, Python, C++, C, JavaScript, TypeScript, SQL, CSS</li>
             <li><strong>Data:</strong> MySQL, PostgreSQL, Azure Cosmos DB, MongoDB, Redis</li>
-            <li><strong>Frameworks & Tools:</strong> Azure (Functions, Container Apps, DevOps), .NET, Docker, Kubernetes, React, Angular, Git, Kafka, REST, gRPC, LLM APIs</li>
+            <li><strong>Cloud & Platforms:</strong> Serverless architectures, containers/Kubernetes, cloud CI/CD</li>
+            <li><strong>Frameworks & Tools:</strong> .NET, Docker, React, Angular, Git, Kafka, REST, gRPC, LLM APIs</li>
           </ul>
         </Section>
 

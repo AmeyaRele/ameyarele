@@ -47,3 +47,9 @@ Thumbs.db
 
 # Project-specific
 latex-resume.tex
+latex-resume.aux
+latex-resume.fdb_latexmk
+latex-resume.fls
+latex-resume.out
+latex-resume.pdf
+latex-resume.synctex.gz
